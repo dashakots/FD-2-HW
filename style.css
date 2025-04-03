@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(235, 232, 232);
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    background-color:azure;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+.delete-btn, .edit-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color:dimgray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 48px;
+}
+
+.delete-btn:hover,  .edit-btn:hover {
+    background-color: darkgray;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    background-color:rgb(56, 55, 55);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#add-btn:hover {
+    background-color: rgb(148, 230, 171);
+    color: black;
+}
+
+#input-add-task {
+    margin-left: 50px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
