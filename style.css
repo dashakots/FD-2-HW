@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.accordion-wrapper {
+    border: 1px solid darkblue;
+    border-radius:5px;
+}
+.cont {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.accordion-header {
+    background-color: darkblue ;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-body {
+    height: 0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accordion-header:hover {
+    background-color: #7474d2;
+}
+p {
+    padding: 10px;
+}
+
+.opened .accordion-body {
+    height: auto;
+}
